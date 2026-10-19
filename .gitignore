@@ -1,0 +1,43 @@
+# 本地配置与凭据（含群 ID、本机路径）
+**/config.local.json
+**/auth*.local.json
+**/*-qr.png
+**/auth-qr.png
+**/setup-qr.png
+
+# 原始导出与整理结果（群聊数据，不入库）
+**/exports/
+**/cleaned/
+**/feishu_chat_export/
+
+# 运行时数据库与个人数据
+**/data/
+*.sqlite
+*.sqlite3
+*.db
+*-wal
+*-shm
+
+# 日志与临时文件
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 构建产物
+/dist/
+/build/
+*.egg-info/
+
+# 系统
+.DS_Store
+Thumbs.db
